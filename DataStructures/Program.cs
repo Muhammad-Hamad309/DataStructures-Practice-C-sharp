@@ -78,6 +78,13 @@ void Stack()
     myStack.Push(2);
     myStack.Push(2);
     myStack.Push(4);
+
+    myStack.Pop();
+
+    foreach (var item in myStack)
+    {
+        Console.WriteLine(item);
+    }
 }
 
 Dictionary();
